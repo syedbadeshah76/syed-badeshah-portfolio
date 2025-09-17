@@ -6,11 +6,11 @@ const AboutSection = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation({ threshold: 0.5 });
   const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation({ threshold: 0.3 });
   const { containerRef: highlightsRef, visibleItems } = useStaggeredScrollAnimation(4, 0.2);
-
+ 
   const highlights = [
     {
       icon: Code,
-      title: "Clean Code",
+      title: "Clean Code ",
       description: "Writing maintainable and scalable code that follows best practices"
     },
     {
