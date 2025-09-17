@@ -46,10 +46,21 @@ const HeroSection = () => {
   Get In Touch
 </Button>
 
-          <Button variant="outline" size="lg" className="w-full sm:w-auto border-border bg-card/50 backdrop-blur-sm hover:bg-card/80 px-6 sm:px-8 py-3 text-base sm:text-lg font-medium hover-lift">
-            <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-            Download CV
-          </Button>
+        <Button
+  variant="outline"
+  size="lg"
+  className="w-full sm:w-auto border-border bg-card/50 backdrop-blur-sm hover:bg-card/80 px-6 sm:px-8 py-3 text-base sm:text-lg font-medium hover-lift"
+>
+  <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+  <a 
+    href="syed-badeshah.pdf" 
+    download="Syed-Badeshah-CV.pdf" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    Download CV
+  </a>
+</Button>
         </div>
 
         {/* Social Links */}
