@@ -16,11 +16,11 @@ const HeroSection = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
             <span className="text-gradient block sm:inline">Syed Badeshah</span>
             <br className="hidden sm:block" />
-            <span className="text-foreground block sm:inline">Mohiuddin</span>
+            <span className="text-foreground block sm:inline">Mohiuddin <br />Barkath</span>
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-3 sm:mb-4 font-medium px-4">
-            MERN Stack Developer
+            Web Developer 
           </p>
           
           <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-4">
