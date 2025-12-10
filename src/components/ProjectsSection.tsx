@@ -5,7 +5,7 @@ import { useScrollAnimation, useStaggeredScrollAnimation } from '@/hooks/useScro
 import knowledgeVillageImg from '@/assets/knowledge-village-project.jpg';
 import gucciPerfumeImg from '@/assets/image.png';
 import javascriptProjectsImg from '@/assets/javascript-projects.jpg';
-import alshahshawarma from '@/assets/javascript-projects.jpg';
+import alshahshawarma from '@/assets/alshahshawarma';
 
 const ProjectsSection = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation({ threshold: 0.5 });
