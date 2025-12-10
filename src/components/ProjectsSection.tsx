@@ -5,6 +5,7 @@ import { useScrollAnimation, useStaggeredScrollAnimation } from '@/hooks/useScro
 import knowledgeVillageImg from '@/assets/knowledge-village-project.jpg';
 import gucciPerfumeImg from '@/assets/image.png';
 import javascriptProjectsImg from '@/assets/javascript-projects.jpg';
+import alshahshawarma from '@/assets/javascript-projects.jpg';
 
 const ProjectsSection = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation({ threshold: 0.5 });
@@ -27,6 +28,15 @@ const ProjectsSection = () => {
       technologies: ["React", "JavaScript", "CSS3", "Responsive Design"],
       githubUrl: "https://asif-ariba-wedding.netlify.app/",
       liveUrl: "https://asif-ariba-wedding.netlify.app/",
+      featured: true
+    },
+    {
+      title: "AL-Shah Shawarma ",
+      description: "A modern, visually rich restaurant website designed for AL-Shah Shawarma, focused on showcasing the brand’s authentic flavors and premium food presentation. The website features an attractive menu display, engaging UI animations, fast-loading responsive layout, and smooth user experience across all devices, helping customers explore offerings effortlessly and boosting online brand presence.",
+    image: alshahshawarma,
+      technologies: ["React", "JavaScript", "CSS3", "Responsive Design" ,"Whatsapp Integration". ],
+      githubUrl: "https://syedbadeshah76.github.io/al-shah-shawarma-/",
+      liveUrl: "https://syedbadeshah76.github.io/al-shah-shawarma-/",
       featured: true
     },
     {
